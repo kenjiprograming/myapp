@@ -37,7 +37,6 @@ services:
       - app
 
 volumes:
-  mysql-data:
   public-data:
   tmp-data:
   log-data:
