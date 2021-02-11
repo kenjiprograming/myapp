@@ -11,6 +11,11 @@
 </p>
 
 <p>
+  <strong>Hoby:</strong>
+  <%= @user.hoby %>
+</p>
+
+<p>
   <strong>Image:</strong>
   <% if @user.image? %>
     <%= image_tag @user.image.url %>
